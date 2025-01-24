@@ -28,28 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            radioButton15 = new RadioButton();
+            rb5q1 = new RadioButton();
             button2 = new Button();
             button1 = new Button();
-            radioButton4 = new RadioButton();
-            radioButton3 = new RadioButton();
-            radioButton2 = new RadioButton();
-            radioButton1 = new RadioButton();
+            rb4q1 = new RadioButton();
+            rb3q1 = new RadioButton();
+            rb2q1 = new RadioButton();
+            rb1q1 = new RadioButton();
             label4 = new Label();
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            checkBox1 = new CheckBox();
-            checkBox2 = new CheckBox();
-            checkBox3 = new CheckBox();
-            checkBox4 = new CheckBox();
-            checkBox5 = new CheckBox();
-            checkBox6 = new CheckBox();
-            checkBox8 = new CheckBox();
-            checkBox9 = new CheckBox();
-            checkBox10 = new CheckBox();
-            checkBox11 = new CheckBox();
-            checkBox12 = new CheckBox();
+            cb1q2 = new CheckBox();
+            cb3q2 = new CheckBox();
+            cb5q2 = new CheckBox();
+            cb6q2 = new CheckBox();
+            cb4q2 = new CheckBox();
+            cb2q2 = new CheckBox();
+            cb4q3 = new CheckBox();
+            cb2q3 = new CheckBox();
+            cb5q3 = new CheckBox();
+            cb3q3 = new CheckBox();
+            cb1q3 = new CheckBox();
             label5 = new Label();
             panel1 = new Panel();
             panel2 = new Panel();
@@ -59,22 +59,24 @@
             panel3.SuspendLayout();
             SuspendLayout();
             // 
-            // radioButton15
+            // rb5q1
             // 
-            radioButton15.AutoSize = true;
-            radioButton15.Location = new Point(19, 70);
-            radioButton15.Name = "radioButton15";
-            radioButton15.Size = new Size(124, 19);
-            radioButton15.TabIndex = 66;
-            radioButton15.TabStop = true;
-            radioButton15.Text = "I do not remember";
-            radioButton15.UseVisualStyleBackColor = true;
+            rb5q1.AutoSize = true;
+            rb5q1.Location = new Point(22, 93);
+            rb5q1.Margin = new Padding(3, 4, 3, 4);
+            rb5q1.Name = "rb5q1";
+            rb5q1.Size = new Size(155, 24);
+            rb5q1.TabIndex = 66;
+            rb5q1.TabStop = true;
+            rb5q1.Text = "I do not remember";
+            rb5q1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            button2.Location = new Point(632, 417);
+            button2.Location = new Point(722, 556);
+            button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(75, 23);
+            button2.Size = new Size(86, 31);
             button2.TabIndex = 65;
             button2.Text = "Back";
             button2.UseVisualStyleBackColor = true;
@@ -82,57 +84,62 @@
             // 
             // button1
             // 
-            button1.Location = new Point(713, 417);
+            button1.Location = new Point(815, 556);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(86, 31);
             button1.TabIndex = 64;
             button1.Text = "Next";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // radioButton4
+            // rb4q1
             // 
-            radioButton4.AutoSize = true;
-            radioButton4.Location = new Point(239, 45);
-            radioButton4.Name = "radioButton4";
-            radioButton4.Size = new Size(137, 19);
-            radioButton4.TabIndex = 56;
-            radioButton4.TabStop = true;
-            radioButton4.Text = "More than 1 year ago";
-            radioButton4.UseVisualStyleBackColor = true;
+            rb4q1.AutoSize = true;
+            rb4q1.Location = new Point(286, 60);
+            rb4q1.Margin = new Padding(3, 4, 3, 4);
+            rb4q1.Name = "rb4q1";
+            rb4q1.Size = new Size(172, 24);
+            rb4q1.TabIndex = 56;
+            rb4q1.TabStop = true;
+            rb4q1.Text = "More than 1 year ago";
+            rb4q1.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // rb3q1
             // 
-            radioButton3.AutoSize = true;
-            radioButton3.Location = new Point(19, 45);
-            radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(203, 19);
-            radioButton3.TabIndex = 55;
-            radioButton3.TabStop = true;
-            radioButton3.Text = "Between 6 months and 1 year ago";
-            radioButton3.UseVisualStyleBackColor = true;
+            rb3q1.AutoSize = true;
+            rb3q1.Location = new Point(22, 60);
+            rb3q1.Margin = new Padding(3, 4, 3, 4);
+            rb3q1.Name = "rb3q1";
+            rb3q1.Size = new Size(255, 24);
+            rb3q1.TabIndex = 55;
+            rb3q1.TabStop = true;
+            rb3q1.Text = "Between 6 months and 1 year ago";
+            rb3q1.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rb2q1
             // 
-            radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(239, 20);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(178, 19);
-            radioButton2.TabIndex = 54;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "Between 1 and 6 months ago";
-            radioButton2.UseVisualStyleBackColor = true;
+            rb2q1.AutoSize = true;
+            rb2q1.Location = new Point(286, 27);
+            rb2q1.Margin = new Padding(3, 4, 3, 4);
+            rb2q1.Name = "rb2q1";
+            rb2q1.Size = new Size(223, 24);
+            rb2q1.TabIndex = 54;
+            rb2q1.TabStop = true;
+            rb2q1.Text = "Between 1 and 6 months ago";
+            rb2q1.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // rb1q1
             // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(19, 20);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(145, 19);
-            radioButton1.TabIndex = 53;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "Less than a month ago";
-            radioButton1.UseVisualStyleBackColor = true;
+            rb1q1.AutoSize = true;
+            rb1q1.Location = new Point(22, 27);
+            rb1q1.Margin = new Padding(3, 4, 3, 4);
+            rb1q1.Name = "rb1q1";
+            rb1q1.Size = new Size(179, 24);
+            rb1q1.TabIndex = 53;
+            rb1q1.TabStop = true;
+            rb1q1.Text = "Less than a month ago";
+            rb1q1.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -140,7 +147,7 @@
             label4.Font = new Font("Microsoft Tai Le", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label4.Location = new Point(0, 0);
             label4.Name = "label4";
-            label4.Size = new Size(391, 16);
+            label4.Size = new Size(491, 19);
             label4.TabIndex = 52;
             label4.Text = "Which of the followings would describe your purpose to buy sportswear?";
             // 
@@ -150,7 +157,7 @@
             label3.Font = new Font("Microsoft Tai Le", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.Location = new Point(-2, 0);
             label3.Name = "label3";
-            label3.Size = new Size(199, 16);
+            label3.Size = new Size(251, 19);
             label3.TabIndex = 51;
             label3.Text = "When did you last buy a sportswear?";
             // 
@@ -160,9 +167,9 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Microsoft Tai Le", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(18, 49);
+            label2.Location = new Point(21, 65);
             label2.Name = "label2";
-            label2.Size = new Size(392, 16);
+            label2.Size = new Size(493, 19);
             label2.TabIndex = 50;
             label2.Text = "Please take a few minutes to tell us more about you and your preferences";
             label2.TextAlign = ContentAlignment.TopCenter;
@@ -171,123 +178,135 @@
             // 
             label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Microsoft Tai Le", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 11);
+            label1.Location = new Point(14, 15);
             label1.Name = "label1";
-            label1.Size = new Size(378, 41);
+            label1.Size = new Size(477, 51);
             label1.TabIndex = 49;
             label1.Text = "Market Research Survey";
             label1.TextAlign = ContentAlignment.TopCenter;
             // 
-            // checkBox1
+            // cb1q2
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(21, 19);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(90, 19);
-            checkBox1.TabIndex = 67;
-            checkBox1.Text = "Gym/fitness";
-            checkBox1.UseVisualStyleBackColor = true;
+            cb1q2.AutoSize = true;
+            cb1q2.Location = new Point(24, 25);
+            cb1q2.Margin = new Padding(3, 4, 3, 4);
+            cb1q2.Name = "cb1q2";
+            cb1q2.Size = new Size(109, 24);
+            cb1q2.TabIndex = 67;
+            cb1q2.Text = "Gym/fitness";
+            cb1q2.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // cb3q2
             // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(21, 44);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(61, 19);
-            checkBox2.TabIndex = 68;
-            checkBox2.Text = "Hiking";
-            checkBox2.UseVisualStyleBackColor = true;
+            cb3q2.AutoSize = true;
+            cb3q2.Location = new Point(24, 59);
+            cb3q2.Margin = new Padding(3, 4, 3, 4);
+            cb3q2.Name = "cb3q2";
+            cb3q2.Size = new Size(74, 24);
+            cb3q2.TabIndex = 68;
+            cb3q2.Text = "Hiking";
+            cb3q2.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // cb5q2
             // 
-            checkBox3.AutoSize = true;
-            checkBox3.Location = new Point(21, 69);
-            checkBox3.Name = "checkBox3";
-            checkBox3.Size = new Size(204, 19);
-            checkBox3.TabIndex = 69;
-            checkBox3.Text = "Sports (basketball, swimming etc)";
-            checkBox3.UseVisualStyleBackColor = true;
+            cb5q2.AutoSize = true;
+            cb5q2.Location = new Point(24, 92);
+            cb5q2.Margin = new Padding(3, 4, 3, 4);
+            cb5q2.Name = "cb5q2";
+            cb5q2.Size = new Size(254, 24);
+            cb5q2.TabIndex = 69;
+            cb5q2.Text = "Sports (basketball, swimming etc)";
+            cb5q2.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // cb6q2
             // 
-            checkBox4.AutoSize = true;
-            checkBox4.Location = new Point(241, 69);
-            checkBox4.Name = "checkBox4";
-            checkBox4.Size = new Size(56, 19);
-            checkBox4.TabIndex = 72;
-            checkBox4.Text = "Other";
-            checkBox4.UseVisualStyleBackColor = true;
+            cb6q2.AutoSize = true;
+            cb6q2.Location = new Point(286, 92);
+            cb6q2.Margin = new Padding(3, 4, 3, 4);
+            cb6q2.Name = "cb6q2";
+            cb6q2.Size = new Size(68, 24);
+            cb6q2.TabIndex = 72;
+            cb6q2.Text = "Other";
+            cb6q2.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // cb4q2
             // 
-            checkBox5.AutoSize = true;
-            checkBox5.Location = new Point(241, 44);
-            checkBox5.Name = "checkBox5";
-            checkBox5.Size = new Size(113, 19);
-            checkBox5.TabIndex = 71;
-            checkBox5.Text = "Outdoor fashion";
-            checkBox5.UseVisualStyleBackColor = true;
+            cb4q2.AutoSize = true;
+            cb4q2.Location = new Point(286, 59);
+            cb4q2.Margin = new Padding(3, 4, 3, 4);
+            cb4q2.Name = "cb4q2";
+            cb4q2.Size = new Size(139, 24);
+            cb4q2.TabIndex = 71;
+            cb4q2.Text = "Outdoor fashion";
+            cb4q2.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // cb2q2
             // 
-            checkBox6.AutoSize = true;
-            checkBox6.Location = new Point(241, 19);
-            checkBox6.Name = "checkBox6";
-            checkBox6.Size = new Size(71, 19);
-            checkBox6.TabIndex = 70;
-            checkBox6.Text = "Running";
-            checkBox6.UseVisualStyleBackColor = true;
+            cb2q2.AutoSize = true;
+            cb2q2.Location = new Point(286, 25);
+            cb2q2.Margin = new Padding(3, 4, 3, 4);
+            cb2q2.Name = "cb2q2";
+            cb2q2.Size = new Size(85, 24);
+            cb2q2.TabIndex = 70;
+            cb2q2.Text = "Running";
+            cb2q2.UseVisualStyleBackColor = true;
             // 
-            // checkBox8
+            // cb4q3
             // 
-            checkBox8.AutoSize = true;
-            checkBox8.Location = new Point(241, 44);
-            checkBox8.Name = "checkBox8";
-            checkBox8.Size = new Size(61, 19);
-            checkBox8.TabIndex = 78;
-            checkBox8.Text = "Online";
-            checkBox8.UseVisualStyleBackColor = true;
+            cb4q3.AutoSize = true;
+            cb4q3.Location = new Point(275, 59);
+            cb4q3.Margin = new Padding(3, 4, 3, 4);
+            cb4q3.Name = "cb4q3";
+            cb4q3.Size = new Size(74, 24);
+            cb4q3.TabIndex = 78;
+            cb4q3.Text = "Online";
+            cb4q3.UseVisualStyleBackColor = true;
             // 
-            // checkBox9
+            // cb2q3
             // 
-            checkBox9.AutoSize = true;
-            checkBox9.Location = new Point(241, 19);
-            checkBox9.Name = "checkBox9";
-            checkBox9.Size = new Size(127, 19);
-            checkBox9.TabIndex = 77;
-            checkBox9.Text = "Departmental store";
-            checkBox9.UseVisualStyleBackColor = true;
+            cb2q3.AutoSize = true;
+            cb2q3.Location = new Point(275, 25);
+            cb2q3.Margin = new Padding(3, 4, 3, 4);
+            cb2q3.Name = "cb2q3";
+            cb2q3.Size = new Size(160, 24);
+            cb2q3.TabIndex = 77;
+            cb2q3.Text = "Departmental store";
+            cb2q3.UseVisualStyleBackColor = true;
             // 
-            // checkBox10
+            // cb5q3
             // 
-            checkBox10.AutoSize = true;
-            checkBox10.Location = new Point(21, 69);
-            checkBox10.Name = "checkBox10";
-            checkBox10.Size = new Size(56, 19);
-            checkBox10.TabIndex = 76;
-            checkBox10.Text = "Other";
-            checkBox10.UseVisualStyleBackColor = true;
+            cb5q3.AutoSize = true;
+            cb5q3.Location = new Point(24, 92);
+            cb5q3.Margin = new Padding(3, 4, 3, 4);
+            cb5q3.Name = "cb5q3";
+            cb5q3.Size = new Size(68, 24);
+            cb5q3.TabIndex = 76;
+            cb5q3.Text = "Other";
+            cb5q3.UseVisualStyleBackColor = true;
             // 
-            // checkBox11
+            // cb3q3
             // 
-            checkBox11.AutoSize = true;
-            checkBox11.Location = new Point(21, 44);
-            checkBox11.Name = "checkBox11";
-            checkBox11.Size = new Size(117, 19);
-            checkBox11.TabIndex = 75;
-            checkBox11.Text = "Multi brand retail";
-            checkBox11.UseVisualStyleBackColor = true;
+            cb3q3.AutoSize = true;
+            cb3q3.Location = new Point(24, 59);
+            cb3q3.Margin = new Padding(3, 4, 3, 4);
+            cb3q3.Name = "cb3q3";
+            cb3q3.Size = new Size(146, 24);
+            cb3q3.TabIndex = 75;
+            cb3q3.Text = "Multi brand retail";
+            cb3q3.UseVisualStyleBackColor = true;
             // 
-            // checkBox12
+            // cb1q3
             // 
-            checkBox12.AutoSize = true;
-            checkBox12.Location = new Point(21, 19);
-            checkBox12.Name = "checkBox12";
-            checkBox12.Size = new Size(84, 19);
-            checkBox12.TabIndex = 74;
-            checkBox12.Text = "Retail store";
-            checkBox12.UseVisualStyleBackColor = true;
+            cb1q3.AutoSize = true;
+            cb1q3.Location = new Point(24, 25);
+            cb1q3.Margin = new Padding(3, 4, 3, 4);
+            cb1q3.Name = "cb1q3";
+            cb1q3.Size = new Size(106, 24);
+            cb1q3.TabIndex = 74;
+            cb1q3.Text = "Retail store";
+            cb1q3.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -295,55 +314,61 @@
             label5.Font = new Font("Microsoft Tai Le", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label5.Location = new Point(0, 0);
             label5.Name = "label5";
-            label5.Size = new Size(265, 16);
+            label5.Size = new Size(331, 19);
             label5.TabIndex = 73;
             label5.Text = "Where do you usually buy your sportswear from?";
             // 
             // panel1
             // 
+            panel1.BackColor = Color.Transparent;
             panel1.Controls.Add(label3);
-            panel1.Controls.Add(radioButton1);
-            panel1.Controls.Add(radioButton2);
-            panel1.Controls.Add(radioButton3);
-            panel1.Controls.Add(radioButton4);
-            panel1.Controls.Add(radioButton15);
-            panel1.Location = new Point(18, 81);
+            panel1.Controls.Add(rb1q1);
+            panel1.Controls.Add(rb2q1);
+            panel1.Controls.Add(rb3q1);
+            panel1.Controls.Add(rb4q1);
+            panel1.Controls.Add(rb5q1);
+            panel1.Location = new Point(21, 108);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(418, 100);
+            panel1.Size = new Size(521, 133);
             panel1.TabIndex = 79;
             // 
             // panel2
             // 
+            panel2.BackColor = Color.Transparent;
             panel2.Controls.Add(label4);
-            panel2.Controls.Add(checkBox1);
-            panel2.Controls.Add(checkBox2);
-            panel2.Controls.Add(checkBox3);
-            panel2.Controls.Add(checkBox6);
-            panel2.Controls.Add(checkBox5);
-            panel2.Controls.Add(checkBox4);
-            panel2.Location = new Point(18, 183);
+            panel2.Controls.Add(cb1q2);
+            panel2.Controls.Add(cb3q2);
+            panel2.Controls.Add(cb5q2);
+            panel2.Controls.Add(cb2q2);
+            panel2.Controls.Add(cb4q2);
+            panel2.Controls.Add(cb6q2);
+            panel2.Location = new Point(21, 244);
+            panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.Name = "panel2";
-            panel2.Size = new Size(418, 100);
+            panel2.Size = new Size(493, 133);
             panel2.TabIndex = 80;
             // 
             // panel3
             // 
+            panel3.BackColor = Color.Transparent;
             panel3.Controls.Add(label5);
-            panel3.Controls.Add(checkBox12);
-            panel3.Controls.Add(checkBox11);
-            panel3.Controls.Add(checkBox8);
-            panel3.Controls.Add(checkBox10);
-            panel3.Controls.Add(checkBox9);
-            panel3.Location = new Point(18, 289);
+            panel3.Controls.Add(cb1q3);
+            panel3.Controls.Add(cb3q3);
+            panel3.Controls.Add(cb4q3);
+            panel3.Controls.Add(cb5q3);
+            panel3.Controls.Add(cb2q3);
+            panel3.Location = new Point(21, 385);
+            panel3.Margin = new Padding(3, 4, 3, 4);
             panel3.Name = "panel3";
-            panel3.Size = new Size(418, 100);
+            panel3.Size = new Size(478, 133);
             panel3.TabIndex = 81;
             // 
             // Form4
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel1);
@@ -352,10 +377,12 @@
             Controls.Add(label2);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            Margin = new Padding(3, 4, 3, 4);
             MaximizeBox = false;
             Name = "Form4";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form4";
+            Load += Form4_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
@@ -367,28 +394,28 @@
         }
 
         #endregion
-        private RadioButton radioButton15;
+        private RadioButton rb5q1;
         private Button button2;
         private Button button1;
-        private RadioButton radioButton4;
-        private RadioButton radioButton3;
-        private RadioButton radioButton2;
-        private RadioButton radioButton1;
+        private RadioButton rb4q1;
+        private RadioButton rb3q1;
+        private RadioButton rb2q1;
+        private RadioButton rb1q1;
         private Label label4;
         private Label label3;
         private Label label2;
         private Label label1;
-        private CheckBox checkBox1;
-        private CheckBox checkBox2;
-        private CheckBox checkBox3;
-        private CheckBox checkBox4;
-        private CheckBox checkBox5;
-        private CheckBox checkBox6;
-        private CheckBox checkBox8;
-        private CheckBox checkBox9;
-        private CheckBox checkBox10;
-        private CheckBox checkBox11;
-        private CheckBox checkBox12;
+        private CheckBox cb1q2;
+        private CheckBox cb3q2;
+        private CheckBox cb5q2;
+        private CheckBox cb6q2;
+        private CheckBox cb4q2;
+        private CheckBox cb2q2;
+        private CheckBox cb4q3;
+        private CheckBox cb2q3;
+        private CheckBox cb5q3;
+        private CheckBox cb3q3;
+        private CheckBox cb1q3;
         private Label label5;
         private Panel panel1;
         private Panel panel2;
